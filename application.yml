@@ -8,11 +8,11 @@ eureka:
     hostname: localhost
     
 microservice:
-    HI-SERVICE :
+    hi-service :
        endpoints:
         endpoint:
           uri: http://HI-SERVICE/hi
-    BYE-SERVICE  :
+    bye-service  :
        endpoints:
         endpoint:
           uri: http://BYE-SERVICE/bye
